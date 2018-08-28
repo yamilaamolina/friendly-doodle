@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f20de2a3-9b9d-4cd1-a193-3fd47a7c768a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://ds.dyndns.org:9000/AuthorizationService?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LoginService.wsdl" MetadataType="Wsdl" ID="7e815c1a-91ff-4808-94e7-2ab6cc1274f7" SourceId="1" SourceUrl="http://ds.dyndns.org:9000/AuthorizationService?wsdl" />
+    <MetadataFile FileName="AuthorizationService.xsd" MetadataType="Schema" ID="55114d52-32d9-4785-8e42-3b36f85c54c2" SourceId="1" SourceUrl="http://ds.dyndns.org:9000/AuthorizationService?xsd=xsd0" />
+    <MetadataFile FileName="AuthorizationService1.xsd" MetadataType="Schema" ID="885c3504-19c3-44fc-9215-bb9ed662f8c1" SourceId="1" SourceUrl="http://ds.dyndns.org:9000/AuthorizationService?xsd=xsd1" />
+    <MetadataFile FileName="AuthorizationService.wsdl" MetadataType="Wsdl" ID="d628be29-2584-4622-8b41-39067d26df9b" SourceId="1" SourceUrl="http://ds.dyndns.org:9000/AuthorizationService?wsdl=wsdl0" />
+    <MetadataFile FileName="AuthorizationService2.xsd" MetadataType="Schema" ID="e0a7cb81-58c4-4085-9ae7-9308f0e7949e" SourceId="1" SourceUrl="http://ds.dyndns.org:9000/AuthorizationService?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,9 @@
+c:\users\administrador\documents\visual studio 2012\Projects\Sistema de Facturacion\Sistema de Facturacion\bin\Debug\Sistema de Facturacion.exe.config
+c:\users\administrador\documents\visual studio 2012\Projects\Sistema de Facturacion\Sistema de Facturacion\bin\Debug\Sistema de Facturacion.exe
+c:\users\administrador\documents\visual studio 2012\Projects\Sistema de Facturacion\Sistema de Facturacion\bin\Debug\Sistema de Facturacion.pdb
+c:\users\administrador\documents\visual studio 2012\Projects\Sistema de Facturacion\Sistema de Facturacion\obj\Debug\Sistema_de_Facturacion.Productos.resources
+c:\users\administrador\documents\visual studio 2012\Projects\Sistema de Facturacion\Sistema de Facturacion\obj\Debug\Sistema_de_Facturacion.Properties.Resources.resources
+c:\users\administrador\documents\visual studio 2012\Projects\Sistema de Facturacion\Sistema de Facturacion\obj\Debug\Sistema de Facturacion.csproj.GenerateResource.Cache
+c:\users\administrador\documents\visual studio 2012\Projects\Sistema de Facturacion\Sistema de Facturacion\obj\Debug\Sistema de Facturacion.exe
+c:\users\administrador\documents\visual studio 2012\Projects\Sistema de Facturacion\Sistema de Facturacion\obj\Debug\Sistema de Facturacion.pdb
+c:\users\administrador\documents\visual studio 2012\Projects\Sistema de Facturacion\Sistema de Facturacion\obj\Debug\Sistema de Facturacion.csprojResolveAssemblyReference.cache

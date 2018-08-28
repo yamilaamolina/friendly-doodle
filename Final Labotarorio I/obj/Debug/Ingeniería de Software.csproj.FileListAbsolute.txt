@@ -1,0 +1,33 @@
+C:\Users\yamil\Downloads\Sistema de Facturacion\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Ingeniería de Software.csprojAssemblyReference.cache
+C:\Users\yamil\Downloads\Sistema de Facturacion\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Final_Labotarorio_I.Formulario.resources
+C:\Users\yamil\Downloads\Sistema de Facturacion\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Final_Labotarorio_I.Properties.Resources.resources
+C:\Users\yamil\Downloads\Sistema de Facturacion\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Ingeniería de Software.csproj.GenerateResource.cache
+C:\Users\yamil\Downloads\Sistema de Facturacion\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Ingeniería de Software.csproj.CoreCompileInputs.cache
+C:\Users\yamil\Downloads\Sistema de Facturacion\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Final Labotarorio I.exe
+C:\Users\yamil\Downloads\Sistema de Facturacion\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Final Labotarorio I.pdb
+C:\Users\yamil\Downloads\Sistema de Facturacion\Sistema de Facturacion - copia\Final Labotarorio I\bin\Debug\Final Labotarorio I.exe.config
+C:\Users\yamil\Downloads\Sistema de Facturacion\Sistema de Facturacion - copia\Final Labotarorio I\bin\Debug\Final Labotarorio I.exe
+C:\Users\yamil\Downloads\Sistema de Facturacion\Sistema de Facturacion - copia\Final Labotarorio I\bin\Debug\Final Labotarorio I.pdb
+C:\Users\yamil\Downloads\Sistema de Facturacion\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Final_Labotarorio_I.FormularioAutenticacion.resources
+C:\Users\yamil\Desktop\Sistema de Facturacion - copia\Final Labotarorio I\bin\Debug\Final Labotarorio I.exe.config
+C:\Users\yamil\Desktop\Sistema de Facturacion - copia\Final Labotarorio I\bin\Debug\Final Labotarorio I.exe
+C:\Users\yamil\Desktop\Sistema de Facturacion - copia\Final Labotarorio I\bin\Debug\Final Labotarorio I.pdb
+C:\Users\yamil\Desktop\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Ingeniería de Software.csprojAssemblyReference.cache
+C:\Users\yamil\Desktop\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Final_Labotarorio_I.Formulario.resources
+C:\Users\yamil\Desktop\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Final_Labotarorio_I.FormularioAutenticacion.resources
+C:\Users\yamil\Desktop\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Final_Labotarorio_I.Properties.Resources.resources
+C:\Users\yamil\Desktop\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Ingeniería de Software.csproj.GenerateResource.cache
+C:\Users\yamil\Desktop\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Ingeniería de Software.csproj.CoreCompileInputs.cache
+C:\Users\yamil\Desktop\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Final Labotarorio I.exe
+C:\Users\yamil\Desktop\Sistema de Facturacion - copia\Final Labotarorio I\obj\Debug\Final Labotarorio I.pdb
+C:\Users\yamil\Desktop\Sistema de Facturacion - 3\Final Labotarorio I\bin\Debug\Final Labotarorio I.exe.config
+C:\Users\yamil\Desktop\Sistema de Facturacion - 3\Final Labotarorio I\bin\Debug\Final Labotarorio I.exe
+C:\Users\yamil\Desktop\Sistema de Facturacion - 3\Final Labotarorio I\bin\Debug\Final Labotarorio I.pdb
+C:\Users\yamil\Desktop\Sistema de Facturacion - 3\Final Labotarorio I\obj\Debug\Ingeniería de Software.csprojAssemblyReference.cache
+C:\Users\yamil\Desktop\Sistema de Facturacion - 3\Final Labotarorio I\obj\Debug\Final_Labotarorio_I.Formulario.resources
+C:\Users\yamil\Desktop\Sistema de Facturacion - 3\Final Labotarorio I\obj\Debug\Final_Labotarorio_I.FormularioAutenticacion.resources
+C:\Users\yamil\Desktop\Sistema de Facturacion - 3\Final Labotarorio I\obj\Debug\Final_Labotarorio_I.Properties.Resources.resources
+C:\Users\yamil\Desktop\Sistema de Facturacion - 3\Final Labotarorio I\obj\Debug\Ingeniería de Software.csproj.GenerateResource.cache
+C:\Users\yamil\Desktop\Sistema de Facturacion - 3\Final Labotarorio I\obj\Debug\Ingeniería de Software.csproj.CoreCompileInputs.cache
+C:\Users\yamil\Desktop\Sistema de Facturacion - 3\Final Labotarorio I\obj\Debug\Final Labotarorio I.exe
+C:\Users\yamil\Desktop\Sistema de Facturacion - 3\Final Labotarorio I\obj\Debug\Final Labotarorio I.pdb

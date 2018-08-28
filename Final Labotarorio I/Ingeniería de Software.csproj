@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{89F6674E-22CC-4E04-83C4-DEC4ACA25BFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Final_Labotarorio_I</RootNamespace>
+    <AssemblyName>Final Labotarorio I</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Comanda.cs" />
+    <Compile Include="Clases\Comprobante.cs" />
+    <Compile Include="Clases\CondicionTributaria.cs" />
+    <Compile Include="Clases\Negocio.cs" />
+    <Compile Include="Connected Services\ServicioFacturacionAfip\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Controladores\Autenticacion.cs" />
+    <Compile Include="Controladores\AutoCarga.cs" />
+    <Compile Include="Clases\Cliente.cs" />
+    <Compile Include="Clases\LineaDePedido.cs" />
+    <Compile Include="Clases\EspecificacionDeProducto.cs" />
+    <Compile Include="Clases\Pedido.cs" />
+    <Compile Include="Controladores\Facturacion.cs" />
+    <Compile Include="Controladores\ServicioAfip.cs" />
+    <Compile Include="Clases\Turno.cs" />
+    <Compile Include="Clases\Cajero.cs" />
+    <Compile Include="Connected Services\ServicioAutorizacion\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario.Designer.cs">
+      <DependentUpon>Formulario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioAutenticacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioAutenticacion.Designer.cs">
+      <DependentUpon>FormularioAutenticacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formulario.resx">
+      <DependentUpon>Formulario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioAutenticacion.resx">
+      <DependentUpon>FormularioAutenticacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Connected Services\ServicioAutorizacion\Final_Labotarorio_I.ServicioAutorizacion.Autorizacion.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioAutorizacion\AuthorizationService.wsdl" />
+    <None Include="Connected Services\ServicioAutorizacion\AuthorizationService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServicioAutorizacion\AuthorizationService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServicioAutorizacion\AuthorizationService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServicioAutorizacion\LoginService.wsdl" />
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.CbteTipoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.ConceptoTipoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.DocTipoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.DummyResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECAEAConsultarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECAEAGetResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECAEARegInformativoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECAEAResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECAEASinMovConsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECAEASinMovimientoConsultarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECAEASinMovimientoInformarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECAEASinMovResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECAEASolicitarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECAEResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECAESolicitarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECompConsultaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECompConsultarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECompTotXRequestResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECompUltimoAutorizadoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FECotizacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FEDummyResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FEPaisResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FEParamGetCotizacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FEParamGetPtosVentaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FEParamGetTiposCbteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FEParamGetTiposConceptoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FEParamGetTiposDocResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FEParamGetTiposIvaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FEParamGetTiposMonedasResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FEParamGetTiposOpcionalResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FEParamGetTiposPaisesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FEParamGetTiposTributosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FEPtoVentaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FERecuperaLastCbteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FERegXReqResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.FETributoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.IvaTipoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.MonedaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\Final_Labotarorio_I.ServicioFacturacionAfip.OpcionalTipoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioFacturacionAfip\service.wsdl" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\ServicioAutorizacion\" />
+    <WCFMetadataStorage Include="Connected Services\ServicioFacturacionAfip\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServicioAutorizacion\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServicioAutorizacion\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServicioAutorizacion\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServicioFacturacionAfip\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServicioFacturacionAfip\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServicioFacturacionAfip\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
