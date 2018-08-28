@@ -22,7 +22,7 @@ namespace Ingeniería_de_Software.Clases
                 var auth = service.SolicitarAutorizacion(codigoAfipService);
 
                 feAuth.Cuit = auth.Cuit;
-                feAuth.Sign = auth.Token;
+                feAuth.Sign = auth.Sign;
                 feAuth.Token = auth.Token;
             }
 
@@ -50,7 +50,9 @@ namespace Ingeniería_de_Software.Clases
             FeDetReq.MonCotiz = 1;
 
             FECAEReq.FeCabReq = FeCabReq;
-            FECAEReq.FeDetReq[0] = FeDetReq;
+            //Este es el error. No en la instanciación del servicio. La colección FeDetReq es nula.
+            //FECAEReq.FeDetReq[0] = FeDetReq;
+            FECAEReq.FeDetReq = new FECAEDetRequest[] { FeDetReq };
 
             using (var service2 = new ServiceSoapClient())
             {
