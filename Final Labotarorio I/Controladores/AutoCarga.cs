@@ -69,7 +69,7 @@ namespace Ingeniería_de_Software.Clases
             ListaUsuario.Add(new Usuario()
             {
                 NombreUsuario = "marianas",
-                ContraseñaUsuario = "38457"
+                ContraseñaUsuario = "39456"
             });
 
             ListaUsuario.Add(new Usuario()
