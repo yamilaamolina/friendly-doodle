@@ -7,7 +7,8 @@ namespace Ingeniería_de_Software.Clases
 {
     public class ServicioAfip
     {
-        public static void ConectarAfip(int cantReg,
+        public static void ConectarAfip(
+            int cantReg,
             TextBox txtTOTALFactura,
             TextBox txtSubTotalFactura)
         {

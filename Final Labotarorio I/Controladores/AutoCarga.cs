@@ -4,7 +4,6 @@ namespace Ingeniería_de_Software.Clases
 {
     public static class AutoCarga
     {
-       //para no tener que estar cargando datos cada ves q inicia el programa
        public static void Cargarproducto(ref List<EspecificacionDeProducto> ListaProducto)
        {
            ListaProducto.Add(new EspecificacionDeProducto()
@@ -20,7 +19,7 @@ namespace Ingeniería_de_Software.Clases
            {
                ProdCodigo = "2",
                ProdDescripcion = "Hamburguesa",
-               ProdPrecio = decimal.Parse("50"),
+               ProdPrecio = decimal.Parse("55"),
                Rubro = "Comestible",
                ProdStock = 100
            });
